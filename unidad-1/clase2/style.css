@@ -1,0 +1,100 @@
+/* body{
+    background-color: rgb(0, 0, 0);
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+ color: red;
+ font-size: 30px;
+}
+
+.texto{
+    color:blue;
+    font-size: 20px;
+}
+
+#parrafo{
+    color:green;
+    font-size: 10px;
+    text-align: justify;
+}
+
+/* .container p{
+    border:1px red solid;
+    width: 80%;
+    margin: auto;
+
+}
+ */
+ .container > p{
+    border:1px red solid;
+    width: 80%;
+    margin: auto;
+    
+ }
+ 
+ .center{
+    border: 1px purple solid;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+ }
+ .center  > span{
+    color: red;
+    font-size: 15px;
+ }
+ /* Afecta a todas las p que encuentre despues de la clase destructor */
+ .destructor ~ p{
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+ }
+
+ /* Solo afecta a la primera P que encuentre despues de la clase destructor 
+  .destructor + p{
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+ } */
+
+ .formulario{
+    border: 1px gainsboro solid;
+    padding: 10px;
+    margin-top: 30px;
+ }
+ .formulario > h1 {
+    text-align: center;
+ }
+ .container-input-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .container-input{
+    width: 50%;
+    margin: auto;
+    border: 1px solid red;
+ }
+ input[type="text"]{
+    border:1px solid green;
+    width: 30%;
+    padding: 15px;
+    color: aqua;
+ }
+ input[type="password"]{
+    border:1px solid purple;
+    width: 50%;
+    padding: 10px;
+    color: red;
+ }

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: black; color: white;">
+    <nav>
+        <ul style="list-style: none; color: white;">
+            <li >
+                <a style="color:white" href="/">Home</a>
+            </li>
+            <li>
+                <a style="color: white;" href="https://tiktok.com">Nosotros</a>
+            </li>
+            <li >
+                <a style="color: white;" href="https://www.google.com">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <main style="border:1px solid red ">
+        <h1 style="text-align: center;color:blue"> Pagina web Modelo</h1>
+    </main>
+
+    <section style="display: flex; gap: 1rem; ">
+        <article style="width: 33%; border: 1px solid white;">
+            <h1 style="text-align: center;">Muñecas</h1>
+            <p style="padding: 20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corporis labore, explicabo totam aliquam laudantium aliquid nihil non unde sint et enim, ad architecto officia quas tempora numquam, vitae excepturi.</p>
+        </article>
+        <article style="width: 33%; border: 1px solid white">
+            <h1 style="text-align: center;">Autos</h1>
+            <p>Lorem ipsum dolor</p>
+        </article>
+        <article style="width: 33%; border: 1px solid white">
+            <h1 style="text-align: center;">Aviones</h1>
+            <p>Lorem ipsum dolor</p>
+        </article>
+    </section>
+
+    <div>
+        <h2>NOSOTROS</h2>
+        <p style="border:1px red solid;text-align: justify;margin:50px;padding: 50px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus natus corporis eaque consectetur dolorem
+            tempora, aut, possimus modi quidem earum iste, fuga soluta molestiae fugiat dolor ipsum. Incidunt, deserunt
+            assumenda.</p>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div>
+        <h3>Tablas</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th rowspan="3" colspan="3">Nombre</th>
+       <!--              <th>Email</th>
+                    <th>Telefono</th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Luis</td>
+                    <td rowspan="2">la@gmail.com</td>
+                    <td rowspan="3">99991212134</td>
+                </tr>
+                <tr>
+                    <td >Mario</td>
+                    <!-- <td >mario@gmail.com</td> -->
+                    <!-- <td >999999999</td> -->
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>maria@gmail.com</td>
+                    <!-- <td>9999999999</td> -->
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <div>
+        <form action="guardar.php" method="get">
+            <div>
+                <label for="text">Nombre</label>
+                <input type="text" id="nombre" placeholder="Escribe tu nombre">
+            </div>
+
+            <div>
+                <label for="correo">Correo</label>
+                <input type="email" id="email" placeholder="Escribe tu correo">
+            </div>
+
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" placeholder="Escribe tu telefono">
+            </div>
+            <div>
+                <span for="genero">Genero</span>
+                <br>
+                <label for="masculino">
+                    Masculino
+                    <input type="radio" name="genero">
+                </label>
+
+                <label for="femenino">
+                    Femenino
+                    <input type="radio" name="genero">
+                </label>
+
+                <label for="otro">
+                    Otro
+                    <input type="radio" name="genero">
+                </label>
+            </div>
+            <br><br>
+            <div>
+                <span>Estado civil</span>
+                <br>
+                <label for="casado">
+                    Casado
+                    <input type="checkbox" name="casado">
+                </label>
+                <label for="divorciado">
+                    Divorciado
+                    <input type="checkbox" name="divorciado">
+                </label>
+            </div>
+
+            <br><br>
+            <div>
+                <label for="productos">Productos</label>
+                <select name="productos" id="productos">
+                    <option value="1">Muñecas</option>
+                    <option value="2">Autos</option>
+                    <option value="3">Aviones</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="comentario">Comentario</label>
+                <textarea name="comentario" id="comentario" cols="10" rows="5"></textarea>
+            </div>
+
+            <br><br>
+
+            <div>
+                <!-- <input type="submit" value="Enviar"> -->
+                <button type="submit">Guardar</button>
+            </div>
+            <br><br><br>
+
+        </form>
+    </div>
+</body>
+
+</html>
