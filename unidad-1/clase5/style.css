@@ -1,0 +1,79 @@
+
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.padre {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 300px;
+    column-gap: 1rem;
+    margin: 15px;
+}
+
+.container{
+
+    background-image: url('assets/image//mushroom-8235504_1920.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    width: 85%;
+    margin: auto;
+    height: 100%;
+     /* horizontal (+R -L)  vertical (+Below -Above)  blur(difuminacion) spread(extension de la sombra ) color   */
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5);
+}
+.formulario{
+   
+}
+.formulario  h2 {
+    text-align: center;
+    padding: 5px;
+}
+.c-input {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    row-gap: 5px;
+   padding: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.c-input label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.c-input input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-btn button{
+    /* arriba derecha abajo izquierda */
+    padding:10px 20px 10px 20px;
+    background-color: #00aa6a;
+    border: 1px solid #00aa6a;
+    border-radius: 5px;
+    color: white;
+}
+
+.container-btn button:hover {
+    background-color: white;
+    color: #00aa6a;
+    border: 1px solid #00aa6a;
+    cursor: pointer;
+}
