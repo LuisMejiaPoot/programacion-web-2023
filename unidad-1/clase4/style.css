@@ -110,7 +110,7 @@
 
 }
 .xcontainer .item-img:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 .xcontainer .item-img img{
     width: 100%;
