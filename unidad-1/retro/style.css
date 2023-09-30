@@ -1,0 +1,46 @@
+#parrafo {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container>.item>#parrafo>span {
+    color: blue !important;
+}
+
+.container>.item>article {
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.familia div:nth-child(2) {
+    color: red;
+}
+
+
+
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.imagenes .img {
+    border: 1px red solid;
+    height: 250px;
+    background-position: center;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-attachment: scroll;
+    background-image: url("https://cdn.pixabay.com/photo/2023/09/19/12/34/dog-8262506_1280.jpg");
+}
+
+.danger{
+    border: 1px red solid;
+}
