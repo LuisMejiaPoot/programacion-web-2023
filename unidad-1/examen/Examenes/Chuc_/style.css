@@ -1,0 +1,420 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: relative; 
+    width: 100%; 
+   /* border: purple solid 1px; */
+   
+}
+.imagen {
+    width: 100%; 
+    height: 50%; 
+}
+
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60%; 
+    right: 22%; 
+    
+}
+.container-btn button{
+    /* arriba derecha abajo izquierda */
+    padding:10px 45px 10px 45px;
+    background-color:  #822023; 
+    background-color: #822023; ;
+    /* border: 1px solid white;  */
+    border-radius: 5px;
+    color: white;
+}
+
+.container-btn button:hover {
+    background-color:#822023;
+    color: white;
+     border: 1px solid white; 
+    cursor: pointer;
+}
+.padre {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 1700px;
+   
+    margin: 15px;
+    gap: 10px 1rem;
+    /* border: blue solid 1px; */
+}
+.hijo {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+     /* margin: auto; 
+    width: 1000px;
+    height: 600px;  */
+   
+     height: 500px;
+   
+    margin: 15px;
+    gap: 200px 1rem; 
+     border: black solid 1px; 
+}
+.imagen_mini{
+
+    background-image: url('https://cdn.pixabay.com/photo/2015/07/20/07/02/man-852427_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    width: 250px;
+ 
+    /* border: red solid 1px; */
+   
+    height: 400px;
+     /* horizontal (+R -L)  vertical (+Below -Above)  blur(difuminacion) spread(extension de la sombra ) color   */
+    /* box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5); */
+   
+}
+.imagen_mini2{
+
+    background-image: url('https://cdn.pixabay.com/photo/2015/09/17/14/24/woman-944262_960_720.jpg');
+    background-repeat: no-repeat;
+   
+    background-size: contain;
+    color: white;
+    width: 270px;
+    
+    /* border: red solid 1px; */
+   
+    height: 400px;
+    /* border: red solid 1px; */
+   
+    height: 400px;
+     /* horizontal (+R -L)  vertical (+Below -Above)  blur(difuminacion) spread(extension de la sombra ) color   */
+    /* box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5); */
+   
+}
+.imagen_mini3{
+
+    background-image: url('https://cdn.pixabay.com/photo/2015/08/16/12/36/man-890877_960_720.jpg');
+    background-repeat: no-repeat;
+   
+    background-size: contain;
+    color: white;
+    width: 270px;
+    
+    /* border: red solid 1px; */
+   
+    height: 400px;
+     /* horizontal (+R -L)  vertical (+Below -Above)  blur(difuminacion) spread(extension de la sombra ) color   */
+    /* box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5); */
+   
+}
+.imagen_mini4{
+
+    background-image: url('https://media.istockphoto.com/id/115779823/es/foto/guitarra-el%C3%A9ctrica-aisladas.jpg?s=1024x1024&w=is&k=20&c=6ENSTOqZtgNMjhqjnGXXScW_XYjEoFZT--9DIUC8z0I=');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    width: 250px;
+    
+    /* border: red solid 1px; */
+   
+    height: 400px;
+     /* horizontal (+R -L)  vertical (+Below -Above)  blur(difuminacion) spread(extension de la sombra ) color   */
+    /* box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5); */
+   
+}
+.imagen_mini5{
+
+    background-image: url('https://media.istockphoto.com/id/173240169/es/foto/guitarra-ac%C3%BAstica.jpg?s=1024x1024&w=is&k=20&c=NgOvXav2X2x5Q1dsZBtkuyc-Jgec1Lizka1UI3rnw2s=');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    width: 250px;
+    
+    /* border: red solid 1px; */
+   
+    height: 400px;
+     /* horizontal (+R -L)  vertical (+Below -Above)  blur(difuminacion) spread(extension de la sombra ) color   */
+    /* box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5); */
+   
+}
+.imagen_mini6{
+
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/06/07/28/guitar-2589863_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    width: 250px;
+    
+    /* border: red solid 1px; */
+   
+    height: 400px;
+     /* horizontal (+R -L)  vertical (+Below -Above)  blur(difuminacion) spread(extension de la sombra ) color   */
+    /* box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5); */
+   
+}
+.imagen_mini7{
+
+    background-image: url('https://cdn.pixabay.com/photo/2016/12/13/15/49/guitar-1904388_1280.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    width: 250px;
+    
+    /* border: red solid 1px; */
+   
+    height: 400px;
+     /* horizontal (+R -L)  vertical (+Below -Above)  blur(difuminacion) spread(extension de la sombra ) color   */
+    /* box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5); */
+   
+}
+.imagen_mini8{
+
+    background-image: url('https://media.istockphoto.com/id/115779823/es/foto/guitarra-el%C3%A9ctrica-aisladas.jpg?s=1024x1024&w=is&k=20&c=6ENSTOqZtgNMjhqjnGXXScW_XYjEoFZT--9DIUC8z0I=');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    width: 250px;
+    
+    /* border: red solid 1px; */
+   
+    height: 400px;
+     /* horizontal (+R -L)  vertical (+Below -Above)  blur(difuminacion) spread(extension de la sombra ) color   */
+    /* box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5); */
+   
+}
+.papu{
+    /* border: red solid 1px; */
+}
+.yellow{
+color: #ffb63f;
+text-align: center;
+font-size: 25px;
+
+}
+.texto h1{
+    margin-bottom: 70px;
+
+}
+.texto p{
+    margin-bottom: 50px;
+}
+.hijo-btn {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    position: absolute;
+ 
+    top: 115%; 
+    left: 15%; 
+    
+}
+
+.hijo-btn button{
+  
+    padding:10px 10px 10px 20px;
+    background-color:  #6384c3; 
+
+    border-radius: 5px;
+    color: white;
+}
+.hijo-btn2 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    position: absolute;
+ 
+    top: 115%; 
+    left: 45%; 
+    
+}
+
+.hijo-btn2 button{
+  
+    padding:10px 10px 10px 20px;
+    background-color:  #6384c3; 
+
+    border-radius: 5px;
+    color: white;
+}
+.hijo-btn3 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    position: absolute;
+ 
+    top: 115%; 
+    left: 75%; 
+    
+    
+}
+.hijo-btn3 button{
+  
+    padding:10px 10px 10px 20px;
+    background-color:  #6384c3; 
+
+    border-radius: 5px;
+    color: white;
+}
+.hijo-btn4 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    position: absolute;
+ 
+    top: 165%; 
+    left: 15%; 
+    
+}
+
+.hijo-btn4 button{
+  
+    padding:10px 10px 10px 20px;
+    background-color:  #6384c3; 
+
+    border-radius: 5px;
+    color: white;
+}
+
+.hijo-btn5 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    position: absolute;
+ 
+    top: 165%; 
+    left: 45%; 
+    
+}
+
+.hijo-btn5 button{
+  
+    padding:10px 10px 10px 20px;
+    background-color:  #6384c3; 
+
+    border-radius: 5px;
+    color: white;
+}
+.hijo-btn6 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    position: absolute;
+ 
+    top: 165%; 
+    left: 75%; 
+    
+}
+
+.hijo-btn6 button{
+  
+    padding:10px 10px 10px 20px;
+    background-color:  #6384c3; 
+
+    border-radius: 5px;
+    color: white;
+}
+.hijo-btn7 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    position: absolute;
+ 
+    top: 225%; 
+    left: 15%; 
+    
+    
+}
+.hijo-btn7 button{
+  
+    padding:10px 10px 10px 20px;
+    background-color:  #6384c3; 
+
+    border-radius: 5px;
+    color: white;
+}
+.hijo-btn8 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    position: absolute;
+ 
+    top: 225%; 
+    left: 45%; 
+    
+}
+
+.hijo-btn8 button{
+  
+    padding:10px 10px 10px 20px;
+    background-color:  #6384c3; 
+
+    border-radius: 5px;
+    color: white;
+}
+.hijo-btn button:hover {
+    background-color: white;
+    color: #274c68;
+    border: 1px solid #274c68;
+    cursor: pointer;
+}
+.hijo-btn2 button:hover {
+    background-color: white;
+    color: #274c68;
+    border: 1px solid #274c68;
+    cursor: pointer;
+}
+.hijo-btn3 button:hover {
+    background-color: white;
+    color: #274c68;
+    border: 1px solid #274c68;
+    cursor: pointer;
+}
+.hijo-btn4 button:hover {
+    background-color: white;
+    color: #274c68;
+    border: 1px solid #274c68;
+    cursor: pointer;
+}
+.hijo-btn5 button:hover {
+    background-color: white;
+    color: #274c68;
+    border: 1px solid #274c68;
+    cursor: pointer;
+}
+.hijo-btn6 button:hover {
+    background-color: white;
+    color: #274c68;
+    border: 1px solid #274c68;
+    cursor: pointer;
+}
+.hijo-btn7 button:hover {
+    background-color: white;
+    color: #274c68;
+    border: 1px solid #274c68;
+    cursor: pointer;
+}
+.hijo-btn8 button:hover {
+    background-color: white;
+    color: #274c68;
+    border: 1px solid #274c68;
+    cursor: pointer;
+}

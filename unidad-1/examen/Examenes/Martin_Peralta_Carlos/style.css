@@ -1,0 +1,202 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.padre{
+    border: 1px yellow solid;
+}
+/* --------------------------------------------------------- */
+.container-img{
+    border: 1px red solid;
+    height: 500px;
+}
+
+.container-img > .img-titular {
+    border: 1px blue solid;
+    height: 100%;
+    background-image: url("/Martin_Peralta_Carlos/assets/Wallpaper.png");
+    background-size: 500px;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.container-btn{
+    /* border: 1px white solid; */
+    height: 10%;
+    width: 10%;
+    margin-top: 15%;
+    margin-left: 63%;
+}
+
+.container-img > .img-titular > .container-btn > button{
+    /* border: 1px white solid; */
+    background-color: brown;
+    color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container-img > .img-titular > .container-btn > button:hover{
+    border: 3px brown solid;
+    color: brown;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* --------------------------------------------------------- */
+
+.titulo{
+    /* border: 1px black solid; */
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* --------------------------------------------------------- */
+.container-opciones{
+    /* border: 1px red solid; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 3rem;
+    padding: 5px;
+}
+
+.container-opcion{
+    /* border: 2px red solid; */
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.container-opcion > .informacion{
+    border: 2px gainsboro solid;
+    border-radius: 5px;
+    text-align: center;
+}   
+
+.container-opcion > .informacion > .titulo-opcion{
+    /* border: 1px red solid; */
+    margin-top: 8%;
+}
+
+.container-opcion > .informacion > .lorem{
+    /* border: 1px red solid; */
+    margin-top: 20%;
+    margin-bottom: 20%;
+    text-align: left;
+    padding: 10px;
+}
+
+.container-opcion > .informacion > .precio{
+    /* border: 1px red solid; */
+    margin-top: 4%;
+    font-size: 30px;
+    color: rgb(255, 191, 0);
+    font-weight: bold;
+}
+
+/* --------------------------------------------------------- */
+.img1{
+    height: 400px;
+    background-image: url("/Martin_Peralta_Carlos/assets/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img2{
+    height: 400px;
+    background-image: url("/Martin_Peralta_Carlos/assets/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img3{
+    height: 400px;
+    background-image: url("/Martin_Peralta_Carlos/assets/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img4{
+    height: 400px;
+    background-image: url("/Martin_Peralta_Carlos/assets/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img5{
+    height: 400px;
+    background-image: url("/Martin_Peralta_Carlos/assets/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img6{
+    height: 400px;
+    background-image: url("/Martin_Peralta_Carlos/assets/img6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img7{
+    height: 400px;
+    background-image: url("/Martin_Peralta_Carlos/assets/img7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img8{
+    height: 400px;
+    background-image: url("/Martin_Peralta_Carlos/assets/img8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+/* --------------------------------------------------------- */
+
+.info-boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.boton-carrito{
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.container-opciones > .info-boton > .boton-carrito > button{
+    border: none;
+    color: white;
+    background-color: rgb(99,133,196);
+    height: 100%;
+    width: 100%;
+}
+
+.container-opciones > .info-boton > .boton-carrito > button:hover{
+    border: rgb(99,133,196) solid;
+    color: rgb(99,133,196);
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+}

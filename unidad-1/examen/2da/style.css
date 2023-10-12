@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 2rem;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    height: 500px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+
+}
+
+.item2 {
+    flex-direction: row-reverse !important;
+}
+
+.item>div {
+    padding: 10px;
+    flex: 1;
+}
+
+.item-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px #f7f7f8 solid;
+    border-right: none;
+
+
+}
+
+.item-content * {}
+
+.item-content p {
+    text-align: start;
+    line-height: 1.5;
+}
+
+
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color {
+    display: flex;
+}
+
+.color div,
+span {
+    flex: 1;
+}
+
+.color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.color div {
+    /*    border: 1px green solid; */
+}
+
+.color div span {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+.color span {
+
+    display: block;
+    width: 100%;
+
+}
+
+.btn-content {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.btn-content button {
+    padding: 14px 40px 14px 40px;
+    background-color: black;
+    border: 1px black solid;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-content button:hover {
+    background-color: white;
+    color: black;
+    border: 1px black solid;
+}
+
+.price span {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.sizes-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sizes {
+    display: flex;
+    width: 70%;
+    column-gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.size {
+    flex: 1;
+    text-align: center;
+    border: 1px #f7f7f8 solid;
+    background-color: #f7f7f8;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.size:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

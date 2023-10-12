@@ -1,0 +1,60 @@
+.portada {
+    position: relative; 
+    width: 100%; 
+    height: 250px; 
+    overflow: hidden;
+}
+
+.portada img {
+    width: 100%; 
+    height: 250px; 
+    
+}
+
+.boton-superpuesto {
+    position: absolute; 
+    top: 50%;
+    left: 80%; 
+    transform: translate(-50%, -100%); 
+    background-color: rgb(75, 6, 6); 
+    color: white; 
+    border: none; 
+    padding: 7px 70px; 
+    font-size: 1.2em; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+.boton-superpuesto:hover {
+    /* Estilos para cuando se pasa el mouse sobre los botones (hover) */
+    background-color: green; /* Cambia el color de fondo a verde */
+    color: white; /* Mantiene el color del texto en blanco */
+}
+
+.titilo {
+   width: 100;;
+}
+.titulo hi {
+    font-family: "Arial", sans-serif;
+    font-size: 50px;
+    font-weight: bold
+}
+
+
+table tr td img{
+    height: 400px;
+    width: 200px;
+}
+
+table tr td h3,
+table tr td p
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table tr td h4{
+    color : orangered;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: bold
+    
+  
+}

@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container-img {
+    height: 450px;
+    background-image: url('assets/images/guitar-2925274_1280.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container-main-button {
+    height: 450px;
+}
+
+.container-button {
+
+    height: 70%;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.container-button button {
+    padding: 15px 30px;
+    width: 200px;
+    background-color: #831f23;
+    border: 1px #831f23 solid;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.container-button button:hover {
+    background-color: white;
+    color: #831f23;
+    border: 2px #831f23 solid;
+}
+
+.container-guitars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin-top: 30px;
+    margin: auto;
+    margin-top: 50px;
+    width: 97%;
+}
+
+.item-guitar {
+
+    border-radius: 5px;
+}
+
+
+.container-guitar-info {
+    display: flex;
+    height: 400px;
+}
+
+/* .guitar,
+.guitar-info {
+    flex: 1 1 0px;
+} */
+
+.guitar {
+    width: 40%;
+}
+
+.guitar-info {
+    width: 60%;
+    border: 0.5px black solid;
+    border-radius: 5px;
+}
+
+.guitar-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    row-gap: 1rem;
+
+}
+
+.guitar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.guitar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.container-guitar-button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guitar-info {
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.guitar-info .title {
+    width: 100%;
+
+}
+
+.guitar-info .title h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    width: 100%;
+
+}
+
+.guitar-info .description {
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    text-align-last: auto; 
+
+}
+
+.guitar-info .price {
+    text-align: center;
+
+    width: 100%;
+}
+
+.guitar-info .price span {
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container-guitar-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.container-guitar-button button {
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #6384c3;
+    border: 1px #6384c3 solid;
+    color: white;
+    cursor: pointer;
+
+}
+.title-main{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}

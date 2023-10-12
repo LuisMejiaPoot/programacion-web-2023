@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-banner{
+    background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url(assets/guitarra-banner.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-banner{
+    width: 100%;
+    margin-top: 100px;
+    padding-right: 300px;
+    /* border: solid 1px gold; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#boton-comprar{
+    width: 200px;
+    height: 50px;
+    background-color: #822023;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+#boton-comprar:hover{
+    background-color: white;
+    color: #822023;
+}
+
+.section-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0 50px 0;
+    /* border: 1px blue solid; */
+}
+
+.items-grid{
+    /* border: 1px green solid; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    gap: 50px 15px;
+    justify-content: space-evenly;
+}
+
+.master-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item{
+    /* border: 1px #303030 solid; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 450px;
+}
+
+.item-image{
+    width: 40%;
+    height: 100%;
+}
+
+.item-image img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.item-text {
+    width: 60%;
+    height: 100%;    
+    border: 1px solid #303030;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-self: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.item-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid purple; */
+    height: fit-content;
+    padding: 20px;
+    
+}
+
+.item-title h2{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.item-paragraph{
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    height: fit-content;
+    /* border: 1px solid aqua; */
+    padding: 7px;
+}
+
+.item-price{
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    height: fit-content;
+    /* border: 1px solid violet; */
+}
+
+.item-price{
+    font-size: 30px;
+    color: #ffa500;
+    padding-bottom: 20px;
+}
+
+
+.boton-carrito button{
+    width: 200px;
+    height: 45px;
+    background-color: #6384C3;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    border: none;
+}
+
+.boton-carrito button:hover{
+    background-color: white;
+    color: #6384C3;
+    border: 1px solid #6384C3;
+}

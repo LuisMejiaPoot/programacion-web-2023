@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    
+}
+.container-button
+{
+    width: 100%;
+    height: 450px;
+}
+.container-button > .button
+{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/07/00/22/guitar-2925282_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container-button > .button > input
+{
+    width: 14%;
+    height: 60px;
+    margin-top: 15%;
+    margin-left: 70%;
+    background-color: #822023;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.catalogo
+{
+    font-size: 3.5em;
+    text-align: center;
+}
+.container-guitar
+{
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    row-gap: 50px;
+    column-gap: 30px;
+    margin-bottom: 30px;
+}
+.guitarrras
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+}
+.guitarrras > .guitarrras-border
+{
+
+    width: 100%;
+    height: 500px;   
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.guitarrras > input
+{
+    width: 40%;
+    height: 10%;
+    background-color: #6384C3;
+    color: white;
+    border: none;
+    font-size: 1em;
+}
+.guitarrras-border > .texto
+{
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    padding: 5px;
+}
+.texto > p:first-child
+{
+    margin: 20px 0;
+    font-size: 2.5em;
+    
+}
+.texto > p:last-child
+{
+    margin-top: 120px;
+    color: #FFBB4A;
+    font-size: 2.0em;
+}
+.imagen
+{
+    width: 40%;
+    height: 100%;
+}
+
+.imagen > img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+.guitarrras > input:hover
+{
+
+    background-color: #394e75;
+    color: white;
+    border: none;
+}
+.container-button > .button > input:hover
+{
+
+    background-color: #550a0c;
+    color: white;
+    border-radius: 8px;
+    
+}

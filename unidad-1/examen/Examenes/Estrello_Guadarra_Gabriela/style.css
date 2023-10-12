@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+    height: 480px;
+}
+
+.container img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.container button{
+    position: absolute;
+    width: 12%;
+    margin-top: 18%;
+    margin-left: 68%;
+    border-radius: 8px;
+    height: 6.5%;
+    background-color:#ae2012 ;
+    color: white;
+    border: 1px solid #ae2012;
+    font-family:'Montserrat', sans-serif;
+    font-weight: lighter;
+    transition: all .35s ease-in-out;
+}
+.container button:hover::after{
+    transform: translate(10px, 10px);
+}
+    
+
+
+.container button:hover{
+    background-color: #780000;
+    border: 1px solid #780000;
+    color: white;
+    cursor: pointer;
+}
+
+.catalogo h1{
+    font-family:'Montserrat', sans-serif;
+    font-weight: lighter;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 43%;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.container-items{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+    
+    
+}
+
+.caja{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-left: 15px;
+    padding-bottom: 40px;
+}
+
+.caja2{
+    position: absolute;
+    margin-left: 34%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1em;
+   
+    
+    
+}
+.caja3{
+    position: absolute;
+    margin-left: 68%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+    
+}
+.caja4{
+    position: absolute;
+    margin-top: 32%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-left: 15px;
+    
+}
+.caja5{
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 34%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1em;
+  
+   
+}
+.caja6{
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 68%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1em;
+   
+}
+.caja7{
+    position: absolute;
+    margin-top: 64%;
+    margin-left: 34%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1em;
+    height: 430px;
+   
+}
+.caja8{
+    position: absolute;
+    margin-top: 64%;
+    margin-left: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1em;
+   
+}
+.container-items .items{
+    margin-left:-15px;
+    width: 18%;
+    border: 1px solid grey;
+    border-radius: 8px;
+    height: 350px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: lighter;
+    
+}
+
+.container-items .items h1{
+    margin-top: 30px;
+    font-size: 35px;
+    margin-left: 35px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.container-items .items p{
+    margin-top: 40px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.container-items .items .precio{
+    color: orange;
+    margin-top: 65px ;
+    margin-left: 35%;
+    font-size: 30px;
+}
+
+.caja img{
+    margin-left: 10px;
+    width: 12%;
+    height: 350px;
+    object-fit: cover;
+}
+.caja2 img{
+    margin-left: 10px;
+    width: 12%;
+    height: 350px;
+    object-fit: cover;
+}
+.caja3 img{
+    margin-left: 10px;
+    width: 12%;
+    height: 350px;
+    object-fit: cover;
+}
+.caja4 img{
+    margin-left: 10px;
+    width: 12%;
+    height: 350px;
+    object-fit: cover;
+}
+.caja5 img{
+    margin-left: 10px;
+    width: 12%;
+    height: 350px;
+    object-fit: cover;
+}
+.caja6 img{
+    margin-left: 10px;
+    width: 12%;
+    height: 350px;
+    object-fit: cover;
+}
+.caja7 img{
+    margin-left: 10px;
+    width: 12%;
+    height: 350px;
+    object-fit: cover;
+}
+.caja8 img{
+    margin-left: 10px;
+    width: 12%;
+    height: 350px;
+    object-fit: cover;
+}
+
+#guitarra1 {
+    height: 35px;
+    width: 15%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 25%;
+    background-color: #0077b6;
+    color: white;
+    border: 1px #0077b6;
+    transition: all .35s ease-in-out;
+}
+#guitarra1:hover::after{
+    transform: translate(10px, 10px);
+}
+
+#guitarra1:hover{
+    
+    background-color: #780000;
+    border: 1px solid #780000;
+    color: white;
+    cursor: pointer;
+}
+
+#guitarra2 {
+    height: 35px;
+    width: 15%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 25%;
+    background-color: #0077b6;
+    color: white;
+    border: 1px #0077b6;
+    transition: all .35s ease-in-out;
+}
+#guitarra2:hover::after{
+    transform: translate(10px, 10px);
+}
+#guitarra2:hover{
+    
+    background-color: #780000;
+    border: 1px solid #780000;
+    color: white;
+    cursor: pointer;
+}
+
+#guitarra3 {
+    height: 35px;
+    width: 15%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 25%;
+    background-color: #0077b6;
+    color: white;
+    border: 1px #0077b6;
+    transition: all .35s ease-in-out;
+}
+#guitarra3:hover::after{
+    transform: translate(10px, 10px);
+}
+#guitarra3:hover{
+    
+    background-color: #780000;
+    border: 1px solid #780000;
+    color: white;
+    cursor: pointer;
+}
+
+#guitarra4 {
+    height: 35px;
+    width: 15%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 25%;
+    background-color: #0077b6;
+    color: white;
+    border: 1px #0077b6;
+    transition: all .35s ease-in-out;
+}
+#guitarra4:hover::after{
+    transform: translate(10px, 10px);
+}
+#guitarra4:hover{
+    
+    background-color: #780000;
+    border: 1px solid #780000;
+    color: white;
+    cursor: pointer;
+}
+
+#guitarra5 {
+    height: 35px;
+    width: 15%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 25%;
+    background-color: #0077b6;
+    color: white;
+    border: 1px #0077b6;
+    transition: all .35s ease-in-out;
+}
+#guitarra5:hover::after{
+    transform: translate(10px, 10px);
+}
+#guitarra5:hover{
+    
+    background-color: #780000;
+    border: 1px solid #780000;
+    color: white;
+    cursor: pointer;
+}
+#guitarra6 {
+    height: 35px;
+    width: 15%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 25%;
+    background-color: #0077b6;
+    color: white;
+    border: 1px #0077b6;
+    transition: all .35s ease-in-out;
+}
+#guitarra6:hover::after{
+    transform: translate(10px, 10px);
+}
+#guitarra6:hover{
+    
+    background-color: #780000;
+    border: 1px solid #780000;
+    color: white;
+    cursor: pointer;
+}
+
+#guitarra7 {
+    height: 35px;
+    width: 15%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 25%;
+    background-color: #0077b6;
+    color: white;
+    border: 1px #0077b6;
+    transition: all .35s ease-in-out;
+}
+#guitarra7:hover::after{
+    transform: translate(10px, 10px);
+}
+#guitarra7:hover{
+    
+    background-color: #780000;
+    border: 1px solid #780000;
+    color: white;
+    cursor: pointer;
+}
+#guitarra8 {
+    height: 35px;
+    width: 15%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 25%;
+    background-color: #0077b6;
+    color: white;
+    border: 1px #0077b6;
+    transition: all .35s ease-in-out;
+}
+#guitarra8:hover::after{
+    transform: translate(10px, 10px);
+}
+#guitarra8:hover{
+    
+    background-color: #780000;
+    border: 1px solid #780000;
+    color: white;
+    cursor: pointer;
+}
