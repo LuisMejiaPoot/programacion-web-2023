@@ -1,0 +1,13 @@
+.product {
+    display: flex;
+
+}
+.image , .info{
+    flex: 1;
+}
+
+.image img  {
+    width: 100%;
+   /*  height: 250px; */
+    object-fit: contain;
+}
