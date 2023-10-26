@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#form {
+    width: 70%;
+    margin: auto;
+    border: 1px solid gray;
+}
+
+#form .container-input {
+    padding: 15px;
+    width: 100%;
+}
+
+#form .container-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
