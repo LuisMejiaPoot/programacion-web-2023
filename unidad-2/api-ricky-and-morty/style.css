@@ -65,19 +65,21 @@ body {
 .btn {
     padding: 10px 35px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
 
 }
 
 .btn-success {
     background-color: #49f188;
     color: #fff;
-    border: none;
-    border-radius: 5px;
+
 }
 
 .btn-danger {
     background-color: #e770b5;
     color: #fff;
-    border: none;
-    border-radius: 5px;
+
 }
